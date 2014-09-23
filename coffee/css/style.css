@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic);
+
+body {
+	font-family: Roboto, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0;
+	/* cmd / to make a comment like this one */
+	background-color: #999999;
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	/* keep the image where it is when we scroll */
+	background-attachment: fixed;
+	/* make the background image fill the screen*/
+	background-size: cover;
+	color: #444444;
+	width: 680px;
+	margin: 0 auto 0 auto;
+}
+
+header{
+	text-align: center;
+	padding: 20px 0 10px 0;
+}
+
+nav{
+	background: #fee34c;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+nav a{
+	color: #444444;
+	font-weight: 700;
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #666666;
+}
+
+section{
+	background: #ffffff;
+	padding: 20px 40px 20px 40px;
+	border-bottom: 1px solid #eeeeee;
+}
+
+h2 {
+	font-size: 21px;
+	margin: 10px 0 20px 0;
+}
+
+p {
+	margin: 20px 0 20px 0;
+}
+
+blockquote{
+	font-size: 24px;
+	font-weight: 700;
+	margin: 20px 0 20px 0;
+
+}
+
+footer {
+	text-align: center;
+	padding: 40px 0 40px 0;
+}
+
+section.quote{
+	background-color: #e3e7e6;
+}
+
+section.quote p {
+	text-align: right;
+}
+
+p.caption {
+	text-align: right;
+	font-size: 12px;
+	margin: 0 0 0 0;
+	border-bottom: 1px solid #eeeeee;
+	padding: 10px 0 15px 0;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
